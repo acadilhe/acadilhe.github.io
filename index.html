@@ -35,13 +35,30 @@
 
 <section id="research"><div class="wrap">
   <h2>Current research</h2>
+  <p>One set of methods for spreading processes: lattice models whose kinetics follow a master equation, simulated
+  with kinetic Monte Carlo over large ensembles of independent realizations, and analysed with the statistics needed
+  to trust the result.</p>
   <div class="work">
-    <img src="img/epidemic.jpg" alt="Snapshot of a lattice simulation of stochastic spreading">
-    <div><h3>Stochastic epidemics and wildfire spread</h3>
-      <p>Lattice models of spreading solved by theory and checked against kinetic Monte Carlo: the SIRI epidemic
-      model (reinfection, endemic states, the effect of where the first infections start) and a three-parameter model
-      of wildfire spread, with and without wind.</p>
-      <p class="small">Physica A 700, 131819 (2026). <a href="https://doi.org/10.1016/j.physa.2026.131819">doi</a></p></div>
+    <img src="img/wildfire.jpg" alt="Kinetic Monte Carlo snapshot of a wildfire driven by wind: unburned (green), burning (yellow) and burned (blue) sites">
+    <div><h3>Stochastic wildfire spread, from short to long length scales</h3>
+      <p>A lattice model of wildfire spread with and without wind. Its short-length-scale behaviour is published in
+      Physica A. A study of wind-driven fronts at long length scales, on lattices up to 2049 sites across with 16,384
+      realizations per case, goes to Physical Review E in November 2026: the burned area approaches ballistic growth
+      whatever the wind direction and strength, and the front fluctuations are consistent with KPZ scaling.</p>
+      <p>Next: spread over all eight directions of the Moore neighbourhood, lateral wind, and an explicit
+      thermodynamic treatment.</p>
+      <p class="small">Physica A 700, 131819 (2026), with N. J. Gon&ccedil;alves, P. M. Fernandes and M. G. Pereira.
+      <a href="https://doi.org/10.1016/j.physa.2026.131819">doi</a></p></div>
+  </div>
+  <div class="work">
+    <img src="img/epidemic.jpg" alt="Snapshot of a lattice simulation of stochastic epidemic spreading">
+    <div><h3>Stochastic epidemics with reinfection (SIRI)</h3>
+      <p>A lattice epidemic model in which recovered individuals can be infected again. Two papers in preparation ask
+      how much the spatial arrangement of the first cases matters, not just their number (spread out regularly, the
+      same number of initial cases can reach more than five times as many sites as when clustered), and when an
+      outbreak loses the memory of how it started.</p>
+      <p class="small">Front picture introduced in a book chapter: Advances in Meteorology and Geophysics 2025,
+      pp. 86-93, with N. J. Gon&ccedil;alves and M. G. Pereira.</p></div>
   </div>
   <div class="work">
     <img src="img/polymer.jpg" alt="Monte Carlo snapshot of a polymer adsorbed on a crystalline substrate near an attractive impurity">
