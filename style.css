@@ -15,7 +15,8 @@ body {
 }
 a { color: var(--accent); }
 .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
-header { border-bottom: 1px solid var(--line); }
+header { border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; background: var(--bg); }
+section { scroll-margin-top: 72px; }
 header .wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 14px; padding-bottom: 14px; flex-wrap: wrap; gap: 8px; }
 .brand { font-weight: 700; font-size: 20px; text-decoration: none; color: var(--ink); letter-spacing: .3px; }
 nav a { margin-left: 18px; text-decoration: none; color: var(--muted); }
